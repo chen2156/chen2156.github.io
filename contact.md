@@ -2,7 +2,8 @@
 layout: contact
 path: /contact
 url: index.html
-image: http://unsplash.it/400?random
+image: <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="jasonchen1998"><a class="LI-simple-link" href='https://www.linkedin.com/in/jasonchen1998?trk=profile-badge'>Jason Chen</a></div>
+
 ---
 
 ## How to Contact Me
