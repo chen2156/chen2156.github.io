@@ -2,11 +2,10 @@
 layout: contact
 path: /contact
 url: index.html
-image: 
+image: http://unsplash.it/400?random
 ---
 
 ## How to Contact Me
-<li><a href="https://www.linkedin.com/in/jasonchen1998/"><i class="fa fa-linkedin"></i></a></li>
 
 Lorem ipsum dolor sit amet, tota primis copiosae id quo. Melius eligendi elaboraret pri et, eam menandri platonem te. Tollit iudicabit gloriatur per ad. Ad diceret recteque eum, eu commodo petentium qui. No aliquid delectus eam, dicta eripuit convenire te nec. Vix no veritus dignissim. Erat ferri veniam ut eos, pro ex eius error intellegat, his te graecis oporteat honestatis.
 
