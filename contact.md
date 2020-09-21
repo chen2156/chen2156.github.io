@@ -7,7 +7,7 @@ image: http://unsplash.it/400?random
 
 ## How to Contact Me
 
-Please feel free to contact me 
+Please feel free to contact me and find me on these social network sites
 
 * Phone: (123) 456-7890
 * Email: youremail@youremail.com
