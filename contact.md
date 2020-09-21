@@ -6,14 +6,8 @@ image: http://unsplash.it/400?random
 ---
 
 ## How to Contact Me
-<li class="socials__item">
-		<a href="https://www.linkedin.com/in/jasonchen1998/" target="_blank" class="socials__item__link" title="Linkedin">
-			<i class="fab fa-linkedin" aria-hidden="true"></i>
-		</a>
-	</li>
 
-
-Lorem ipsum dolor sit amet, tota primis copiosae id quo. Melius eligendi elaboraret pri et, eam menandri platonem te. Tollit iudicabit gloriatur per ad. Ad diceret recteque eum, eu commodo petentium qui. No aliquid delectus eam, dicta eripuit convenire te nec. Vix no veritus dignissim. Erat ferri veniam ut eos, pro ex eius error intellegat, his te graecis oporteat honestatis.
+Please feel free to contact me 
 
 * Phone: (123) 456-7890
 * Email: youremail@youremail.com
