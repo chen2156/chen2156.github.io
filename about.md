@@ -6,7 +6,7 @@ image: http://unsplash.it/400?random
 ---
 
 ## Resume
-
+<a href="https://chen2156.github.io/current resume.pdf">Resume</a>
 
 ## Overview
 Lorem ipsum dolor sit amet, purto tota in vel, exerci discere apeirian has in. Nec noster iracundia eu, utroque facilis ad has. Alii argumentum no his, omnis iusto scripta vim in, ipsum ridens mel at. Has homero phaedrum no, ea autem affert facilis usu, has possim meliore perpetua id. Errem iisque mea ex, option ocurreret no est. Sea facer ullamcorper ne, cu dictas discere repudiandae sea.
