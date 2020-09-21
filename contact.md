@@ -2,7 +2,7 @@
 layout: contact
 path: /contact
 url: index.html
-image: images/professionalpic.png
+image: professionalpic.png
 ---
 
 ## How to Contact Me
