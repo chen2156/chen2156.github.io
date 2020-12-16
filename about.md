@@ -13,6 +13,6 @@ I was born and raised near Boston, MA. I graduated from Purdue University with a
 
 
 ### Research interests
-* Interest 1
-* Interest 2
-* Interest 3
+* Autonomous Vehicles
+* AI
+* IoT
