@@ -2,7 +2,7 @@
 layout: project
 title: ME 449 Project Capstone
 date: September 22, 2014
-image: 800px-Youbot-capstone.png
+image: /800px-Youbot-capstone.png
 ---
 
 ## Overview
