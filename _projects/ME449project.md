@@ -1,6 +1,6 @@
 ---
 layout: project
-title: ME 449 Project Capstone
+title: ME 449 Mobile Manipulation Capstone
 date: December 3rd, 2020
 image: /800px-Youbot-capstone.png
 ---
