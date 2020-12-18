@@ -10,3 +10,8 @@ In this project, I wrote software that plans a trajectory for the end-effector o
 
 Here is a video of the best working model
 
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
+    <source src="path/to/video.mp4" type="video/mp4">
+  </video>
+</figure>
