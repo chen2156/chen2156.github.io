@@ -11,7 +11,7 @@ In this project, I wrote software that plans a trajectory for the end-effector o
 Here is a video of the best working model
 
 <figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
+  <video controls="true" allowfullscreen="true" poster="/800px-Youbot-capstone.png">
     <source src="/bestanimation-2020-12-03_18.24.11.mp4.mp4" type="video/mp4">
   </video>
 </figure>
