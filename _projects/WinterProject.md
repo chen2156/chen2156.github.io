@@ -20,3 +20,36 @@ turtlebot3 autonomously exploring turtlebot3 world
     <source src="/EX6frontierExplorerforturtlebot3world.mp4" type="video/mp4"/>
   </video>
 </figure>
+
+turtlebot3 autonomously exploring turtlebot3 house
+
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" poster="">
+    <source src="/EX6frontierExplorerforturtlebot3house.mp4" type="video/mp4"/>
+  </video>
+</figure>
+
+turtlebot3 tracing a square in the turtlebot3 house map
+
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" poster="">
+    <source src="/traceSquare.mp4" type="video/mp4"/>
+  </video>
+</figure>
+
+turtlebot3 tracing a pentagon in the turtlebot3 house map
+
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" poster="">
+    <source src="/tracePentagon.mp4" type="video/mp4"/>
+  </video>
+</figure>
+
+turtlebot3 tracing an octagon in the turtlebot3 house map
+
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" poster="">
+    <source src="/traceOctagon.mp4" type="video/mp4"/>
+  </video>
+</figure>
+
