@@ -16,7 +16,7 @@ Here are some videos of the results I got
 turtlebot3 autonomously exploring turtlebot3 world
 
 <figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="" width="1400">
+  <video controls="true" allowfullscreen="true" poster="" width="1500">
     <source src="/EX6frontierExplorerforturtlebot3world.mp4" type="video/mp4"/>
   </video>
 </figure>
@@ -24,7 +24,7 @@ turtlebot3 autonomously exploring turtlebot3 world
 turtlebot3 autonomously exploring turtlebot3 house
 
 <figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="">
+  <video controls="true" allowfullscreen="true" poster="" width="1500">
     <source src="/EX6frontierExplorerforturtlebot3house.mp4" type="video/mp4"/>
   </video>
 </figure>
@@ -32,7 +32,7 @@ turtlebot3 autonomously exploring turtlebot3 house
 turtlebot3 tracing a square in the turtlebot3 house map
 
 <figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="">
+  <video controls="true" allowfullscreen="true" poster="" width="1500">
     <source src="/traceSquare.mp4" type="video/mp4"/>
   </video>
 </figure>
@@ -40,7 +40,7 @@ turtlebot3 tracing a square in the turtlebot3 house map
 turtlebot3 tracing a pentagon in the turtlebot3 house map
 
 <figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="">
+  <video controls="true" allowfullscreen="true" poster="" width="1500">
     <source src="/tracePentagon.mp4" type="video/mp4"/>
   </video>
 </figure>
@@ -48,7 +48,7 @@ turtlebot3 tracing a pentagon in the turtlebot3 house map
 turtlebot3 tracing an octagon in the turtlebot3 house map
 
 <figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="">
+  <video controls="true" allowfullscreen="true" poster="" width="1500">
     <source src="/traceOctagon.mp4" type="video/mp4"/>
   </video>
 </figure>
