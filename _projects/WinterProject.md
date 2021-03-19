@@ -16,7 +16,7 @@ Here are some videos of the results I got
 turtlebot3 autonomously exploring turtlebot3 world
 
 <figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="">
+  <video controls="true" allowfullscreen="true" poster="" max-width: 100%>
     <source src="/EX6frontierExplorerforturtlebot3world.mp4" type="video/mp4"/>
   </video>
 </figure>
