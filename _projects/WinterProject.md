@@ -53,3 +53,4 @@ turtlebot3 tracing an octagon in the turtlebot3 house map
   </video>
 </figure>
 
+Your results may vary depending on what map you used and what shape you decided to trace with.
