@@ -11,6 +11,8 @@ During the Winter quarter, I learned a lot about turtlebot3, especially when it 
 
 More technical details of the project can be found in this <a href="https://github.com/chen2156/MSRWinterProject2021">Github repository</a>.
 
+The idea behind the frontier explorer was inspired by this <a href="https://ieeexplore.ieee.org/document/613851">paper</a>.  In order to determine where to drive the turtlebot3 to, I had to find the frontier where the unknown and the unoccupied cells on the map meet and drive the turtlebot to those locations until I was fully satisfied with the developed map.
+
 Here are some videos of the results I got
 
 turtlebot3 autonomously exploring turtlebot3 world
@@ -28,6 +30,10 @@ turtlebot3 autonomously exploring turtlebot3 house
     <source src="/EX6frontierExplorerforturtlebot3house.mp4" type="video/mp4"/>
   </video>
 </figure>
+
+I used the map_server node to save the map into a file, and then load it back up in rviz.  
+
+The idea being the shape tracing was that I wanted to see if it was possible to give the turtlebot3 an image and have it draw the outline of that image on the map.  This could be applicable to situations where you want to trace large outlines of stuff onto the map and want to automate the process.  Some of the results of that are shown below.
 
 turtlebot3 tracing a square in the turtlebot3 house map
 
