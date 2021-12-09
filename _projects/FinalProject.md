@@ -23,18 +23,13 @@ Initial Image Setup
 I built up an enclosed space on the floor with obstacles that the turtlebot would want to drive over.  In order to train the robot, I would drive it around the enclosed area until I deemed it captured enough data regarding to the number of images and LIDAR data
 
 Video of robot driving around the obstacle for training
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="" width="500">
-    <source src="https://drive.google.com/file/d/13XbUI3pJlmrTnmNe_aII8b4VWf_6x76K/view?usp=sharing" type="video/mp4"/>
-  </video>
-</figure>
+<iframe src="https://drive.google.com/file/d/13XbUI3pJlmrTnmNe_aII8b4VWf_6x76K/preview" width="640" height="480" allow="autoplay"></iframe>  
 
 Fisheye image from raspberry pi camera   
-![Alt Text]("https://drive.google.com/file/d/1lJi4Cai_JhtBqn7vIxRvYFtByNuZsMCG/view?usp=sharing" width="500")
-
+<iframe src="https://drive.google.com/file/d/1lJi4Cai_JhtBqn7vIxRvYFtByNuZsMCG/preview" width="640" height="480" allow="autoplay"></iframe>
 
 Unwarped image   
-![Alt Text]("https://drive.google.com/file/d/1UB7yrP4a5THCXUPArwanxNKEwWlsrlSX/view?usp=sharing" width="500")
+![Alt Text]("https://drive.google.com/file/d/1UB7yrP4a5THCXUPArwanxNKEwWlsrlSX/view?usp=sharing" width="500")  
 
 After saving the dataset into a folder as well as the corresponding distances into a csv file, I sent the data into the Gaussian Process Model
 
