@@ -20,15 +20,15 @@ Here are some results I got
 
 Initial Image Setup
 
-I initially set up the robot such that it was on a table surrounded by a couple of objects.  I then captured data using ROS, which were the images streaming from the raspberry pi camera and the LIDAR distances generated
+I initially set up the robot such that it was on a table surrounded by a couple of objects.  I then captured data using ROS, which were the images streaming from the raspberry pi camera and the LIDAR distances generated 
 
-<img src="/frame0000.jpg" width="1000">
+<img src="/frame0000.jpg" width="500">  
 
-Fisheye image from raspberry pi camera  
-<img src="/robotSetting.jpg" width="1000">  
+Fisheye image from raspberry pi camera   
+<img src="/robotSetting.jpg" width="500">   
 
-Unwarped image  
-<img src="/frame0000Unwarped.jpg" width="1000">
+Unwarped image   
+<img src="/frame0000Unwarped.jpg" width="500">  
 
 After saving the dataset into a folder as well as the corresponding distances into a csv file, I sent the data into the Gaussian Process Model
 
@@ -36,17 +36,17 @@ After saving the dataset into a folder as well as the corresponding distances in
 
 Before the images were sent to the Gaussian Process Model, each of the image's column length was first reduced in column length from 420 pixels down to 6 pixels using PCA.  After the images were reduced, they along with the associated observed distance values were sent into the Gaussian Process Model, which would use it to train itself.  Each column had an associated depth value, which was determined from the LIDAR readings.  Each image had 360 columns.
 
-Gaussian Process Model after training on 360 columns (1 image)
-<img src="/1TrainingImage.png" width="1000">
+Gaussian Process Model after training on 360 columns (1 image)  
+<img src="/1TrainingImage.png" width="500"> 
 
-Gaussian Process Model after training on 720 columns (2 images)
-<img src="/2TrainingImages.png" width="1000">
+Gaussian Process Model after training on 720 columns (2 images)  
+<img src="/2TrainingImages.png" width="500">  
 
-Gaussian Process Model after training on 1800 columns (5 images)
-<img src="/5TrainingImages.png" width="1000">
+Gaussian Process Model after training on 1800 columns (5 images)  
+<img src="/5TrainingImages.png" width="500">
 
-Gaussian Process Model after training on 3600 columns (10 images)
-<img src="/10TrainingImages.png" width="1000">
+Gaussian Process Model after training on 3600 columns (10 images)  
+<img src="/10TrainingImages.png" width="500">  
 
 # Videos driving the turtlebot around
 
