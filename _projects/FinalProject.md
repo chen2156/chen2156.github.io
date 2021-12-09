@@ -54,6 +54,14 @@ From the graphs, it can be shown that the more images the model trains on, the m
 
 To test the model, I built a robot that performed SLAM while driving around an enclosed space.  The robot was driven around using WASD keys, and corresponding pictures and videos are shown below.
 
+Initial Setting of the robot
+<img src="/robotSetting" width="500">  
+
+Robot running with LIDAR
+
+
+
+
 
 
 
