@@ -23,7 +23,8 @@ Initial Image Setup
 I built up an enclosed space on the floor with obstacles that the turtlebot would want to drive over.  In order to train the robot, I would drive it around the enclosed area until I deemed it captured enough data regarding to the number of images and LIDAR data
 
 Video of robot driving around the obstacle for training
-<iframe src="https://drive.google.com/file/d/13XbUI3pJlmrTnmNe_aII8b4VWf_6x76K/preview" width="640" height="480" allow="autoplay"></iframe>  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bA4JS41rgfM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+
 
 Fisheye image from raspberry pi camera   
 <iframe src="https://drive.google.com/file/d/1lJi4Cai_JhtBqn7vIxRvYFtByNuZsMCG/preview" width="640" height="480" allow="autoplay"></iframe>
