@@ -48,7 +48,12 @@ Gaussian Process Model after training on 1800 columns (5 images)
 Gaussian Process Model after training on 3600 columns (10 images)  
 <img src="/10TrainingImages.png" width="500">  
 
+From the graphs, it can be shown that the more images the model trains on, the more accurate the Gaussian Process Model is able to predict.  This proves that if there were 600 images, the model theoretically would be pretty robust in predicting depth given the image itself.  
+
 # Videos driving the turtlebot around
 
-Video showing 
+To test the model, I built a robot that performed SLAM while driving around an enclosed space.  The robot was driven around using WASD keys, and corresponding pictures and videos are shown below.
+
+
+
 
