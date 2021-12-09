@@ -20,15 +20,18 @@ Here are some results I got
 
 Initial Image Setup
 
-I initially set up the robot such that it was on a table surrounded by a couple of objects.  I then captured data using ROS, which were the images streaming from the raspberry pi camera and the LIDAR distances generated 
+I built up an enclosed space on the floor with obstacles that the turtlebot would want to drive over.  In order to train the robot, I would drive it around the enclosed area until I deemed it captured enough data regarding to the number of images and LIDAR data
 
-<img src="/frame0000.jpg" width="500">  
+Video of robot driving around the obstacle for training
+<video src='https://drive.google.com/file/d/13XbUI3pJlmrTnmNe_aII8b4VWf_6x76K/view?usp=sharing' width=500/>
+
 
 Fisheye image from raspberry pi camera   
-<img src="/robotSetting.jpg" width="500">   
+![Alt Text]("https://drive.google.com/file/d/1lJi4Cai_JhtBqn7vIxRvYFtByNuZsMCG/view?usp=sharing" width="500")
+
 
 Unwarped image   
-<img src="/frame0000Unwarped.jpg" width="500">  
+![Alt Text]("https://drive.google.com/file/d/1UB7yrP4a5THCXUPArwanxNKEwWlsrlSX/view?usp=sharing" width="500")
 
 After saving the dataset into a folder as well as the corresponding distances into a csv file, I sent the data into the Gaussian Process Model
 
@@ -48,7 +51,7 @@ Gaussian Process Model after training on 1800 columns (5 images)
 Gaussian Process Model after training on 3600 columns (10 images)  
 <img src="/10TrainingImages.png" width="500">  
 
-From the graphs, it can be shown that the more images the model trains on, the more accurate the Gaussian Process Model is able to predict.  This proves that if there were 600 images, the model theoretically would be pretty robust in predicting depth given the image itself.  
+From the graphs, it can be shown that the more images the model trains on, the more accurate the Gaussian Process Model is able to predict.  This shows that if there were 600 images, the model theoretically would be pretty robust in predicting depth given the image itself.  
 
 # Videos driving the turtlebot around
 
@@ -57,7 +60,7 @@ To test the model, I built a robot that performed SLAM while driving around an e
 Initial Setting of the robot
 <img src="/robotSetting" width="500">  
 
-Robot running with LIDAR
+Robot running with LIDAR 
 
 
 
