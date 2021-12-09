@@ -31,7 +31,7 @@ Fisheye image from raspberry pi camera
 
 
 Unwarped image   
-![Alt Text](/TrainingUnwarpedimage.gif)
+![Alt Text](/TrainingUnwarpedImage.gif)
 
 
 After saving the dataset into a folder as well as the corresponding distances into a csv file, I sent the data into the Gaussian Process Model
