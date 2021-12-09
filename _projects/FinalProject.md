@@ -6,7 +6,19 @@ image: /20211104_112847.jpg
 ---
 
 ## Overview
-During my final fall quarter at Northwestern, I worked 
+During my final fall quarter at Northwestern, I learned about a new machine learning algorithm called the Gaussian Process.  This algorithm essentially allows someone to predict both the result and measure how confident the result the machine predicts.  In the experiment, I attempt to use the Gaussian Process to predict the depth of the robot's surrounding based on the images read in from a raspberry pi camera.  I then send the results to SLAM, which would allow the robot to produce a map of its surrounding environment
+
+More technical details of the project can be found in this <a href="https://github.com/chen2156/MSRFinalProject">Github repository</a>.
+
+The idea behind the Gaussian Process Model was inspired by this <a href="https://ieeexplore.ieee.org/document/4543324">paper</a>.  In order to train the model, I first had to capture images from the raspberry pi camera as well as the corresponding distances from the LIDAR sensor.  I then unwarped and apply PCA to the image to reduce the dimensions of each column of unwarped image.  I then trained the Gaussian Process Model using the reduced image column dataset and their corresponding distances.  I then applied the model to the camera stream coming from the raspberry pi to determine the distance live and send the results to the SLAM node   
+
+Here are some results I got
+
+![Alt Text](/robotSetting.jpg)
+
+
+
+
 
 ### Topic 1
 His nemore audiam consequat ad, no augue choro assueverit mei. Zril offendit tincidunt ne quo. At commodo integre alienum sea, cu vocent fuisset suscipit nam. Eum ex tation omnesque adversarium, mutat autem putant te nam. Id vix facilis complectitur, vis vitae vivendo euripidis ea, fugit eirmod an vix.
