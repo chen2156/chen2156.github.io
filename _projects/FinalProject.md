@@ -14,8 +14,8 @@ The idea behind the Gaussian Process Model was inspired by this <a href="https:/
 
 Here are some results I got
 
-Initial Setup of the environment
-<img src="/robotsetting.jpg" width="200">
+Initial Setup of the environment  
+<img src="/robotsetting.jpg" width="200">  
 
 
 
