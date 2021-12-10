@@ -58,7 +58,7 @@ From the graphs, it can be shown that the more images the model trains on, the m
 
 To test the model, I ran the robot on a different obstacle course to see how well the map generated compares with that generated from the LIDAR and here were some of the results
 
-Initial Setting of the robot
+Initial Setting of the robot  
 <img src="/20211208_221904.jpg" width="500">  
 
 # LIDAR Test  
@@ -83,6 +83,9 @@ Video Generating Map
   </video>
 </figure>  
 
+# Resulting Map Generated  
+
+![alt-text-1](/lidarmaptake3.pgm "LIDAR map") ![alt-text-2](/gaussmaptake3.pgm "Gaussian Process Map")
 
 
 
