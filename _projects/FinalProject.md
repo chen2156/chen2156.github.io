@@ -14,6 +14,10 @@ The idea behind the Gaussian Process Model was inspired by this <a href="https:/
 
 Here are some results I got
 
+# Initial Hardware Setup  
+
+As shown on the right, I modified the stock turtlebot3 robot to include an additional waffle plate plateform.  This additional platform in the middle housed a camera mount and the raspbery pi camera.  In additional, I attached a convex mirror beneath the top plate and adjusted to make sure the camera was able to capture the reflection coming off of the mirror.  My goal with the project is to essentially have the robot be able to sense distances to obstacles without using the LIDAR, but instead from the reflection coming off of the mirror and a Gaussian Process machine learning model.  This design was inspired by Figure 3 in the paper I read
+
 ## Training the Gaussian Model
 
 # Initial Setup
