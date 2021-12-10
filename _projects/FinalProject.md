@@ -27,11 +27,11 @@ Video of robot driving around the obstacle for training
 
 
 Fisheye image from raspberry pi camera   
-![Alt Text](/compressedFishEye.gif)
+![Alt Text](/compressedFishEye.gif width="500") 
 
 
 Unwarped image   
-![Alt Text](/TrainingUnwarpedImage.gif)
+![Alt Text](/TrainingUnwarpedImage.gif width="500" height="200") 
 
 
 After saving the dataset into a folder as well as the corresponding distances into a csv file, I sent the data into the Gaussian Process Model
@@ -54,14 +54,22 @@ Gaussian Process Model after training on 3600 columns (10 images)
 
 From the graphs, it can be shown that the more images the model trains on, the more accurate the Gaussian Process Model is able to predict.  This shows that if there were 600 images, the model theoretically would be pretty robust in predicting depth given the image itself.  
 
-# Videos driving the turtlebot around
+# Testing the model
 
-To test the model, I built a robot that performed SLAM while driving around an enclosed space.  The robot was driven around using WASD keys, and corresponding pictures and videos are shown below.
+To test the model, I ran the robot on a different obstacle course to see how well the map generated compares with that generated from the LIDAR and here were some of the results
 
 Initial Setting of the robot
-<img src="/robotSetting" width="500">  
+<img src="/20211208_221904.jpg" width="500">  
 
-Robot running with LIDAR 
+# LIDAR Test  
+IRL Video  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/G9UpRT2PR7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# Gauss Test  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Dq6NnVD3Cp0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
 
 
 
