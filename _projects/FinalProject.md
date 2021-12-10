@@ -27,11 +27,13 @@ Video of robot driving around the obstacle for training
 
 
 Fisheye image from raspberry pi camera   
-![Alt Text](/compressedFishEye.gif width="500") 
+<img src="/compressedFishEye.gif" width="500"> 
+
 
 
 Unwarped image   
-![Alt Text](/TrainingUnwarpedImage.gif width="500" height="200") 
+<img src="/TrainingUnwarpedImage.gif" width="500" height="200">  
+
 
 
 After saving the dataset into a folder as well as the corresponding distances into a csv file, I sent the data into the Gaussian Process Model
