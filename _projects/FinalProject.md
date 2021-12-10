@@ -87,13 +87,13 @@ Video Generating Map
 
 # Resulting Map Generated  
 
-<img src="/lidarmaptake3.pgm" width="500"><img src="/gaussmaptake3.pgm" width="500">   
+<img src="/lidarmaptake3.pgm" width="500">  
+<img src="/gaussmaptake3.pgm" width="500">     
 
-# Analysis of Result
+# Analysis of Result  
 
+The results unfortunately do not show that the Gaussian Process was able to form a map that was able to generate a map that had any cohesive information, let alone similar to what the LIDAR was able to generate.  What I expected in the experiment from the Gaussian Process is a map that I could discern a room from. There were several factors that might explain why the experiment wasn't successful.  One reason being the mount of processing power required to train a Gaussian Process Model.  When training the model, I frequently ran into issue regarding memory, which when it came down to was the implementation of the Gaussian Process training algorithm in scikit-learn.  Since the paper didn't explicitly state how many columns each image had, I assume there would be 360 columns in each image to match the resolution coming from the LIDAR.  This lead to the algorithm in scikit-learn attempting to allocate 174GB of memory for its array, which seems very unreasonable.  If I were to implement this in the future, I would decrease the number of columns in the images to alleviate the memory due to the fact that the paper's implementation use a SICK laser range finder, which doesn't have the same resolution as the LIDAR on the turtlebot3.  Another way I could overcome the memory issue could be using a different library to run the Gaussian Process like the GPy library, or possible run the code in C or C++ to better manage the memory.  Another reason could be the mirror used in the experiment.  Due to access to parts, I was not able to source a mirror that had an optimal focal length to the turtlebot, which might have affected how far the turtlebot3 camera was actually able to see.  In the future, I would like to spend more time determining what the best focal length used that would be able to give the best range for the camera to see and go and possible find it or design the mirror itself.  Another reason could be down to the inefficiencies of the algorithm itself.  Gaussian Process doesn't perform well when it comes to training on images, and there are other machine algorithm out there more suitable to learn images (ex.Convolution Neural Networks).  In the future, I could also try to implement a different machine learning algorithm that is better suited to learning images.
 
-
- # Conclusion and future 
 
 
 
