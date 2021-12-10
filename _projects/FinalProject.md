@@ -65,8 +65,23 @@ Initial Setting of the robot
 IRL Video  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G9UpRT2PR7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+Video Generating Map  
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" poster="" width="1420">
+    <source src="/LidarMapTake3.mp4" type="video/mp4"/>
+  </video>
+</figure>  
+
 # Gauss Test  
+IRL Video  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Dq6NnVD3Cp0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Video Generating Map  
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" poster="" width="1420">
+    <source src="/GaussMapTake3.mp4" type="video/mp4"/>
+  </video>
+</figure>  
 
 
 
