@@ -85,7 +85,7 @@ Video Generating Map
 
 # Resulting Map Generated  
 
-![Alt Text](/lidarmaptake3.pgm "LIDAR map") ![Alt Text](/gaussmaptake3.pgm "Gaussian Process Map")
+<img src="/lidarmaptake3.pgm" width="500"><img src="/gaussmaptake3.pgm" width="500"> 
 
 
 
