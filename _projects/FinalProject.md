@@ -87,8 +87,8 @@ Video Generating Map
 
 # Resulting Map Generated  
 
-<img src="/lidarmaptake3.jpg" width="500">  
-<img src="/gaussmaptake3.jpg" width="500">     
+<img src="/lidarmaptake3.jpg" width="5">  
+<img src="/gaussmaptake3.jpg" width="5">     
 
 # Analysis of Result  
 
