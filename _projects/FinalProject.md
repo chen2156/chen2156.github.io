@@ -12,11 +12,17 @@ More technical details of the project can be found in this <a href="https://gith
 
 The idea behind the Gaussian Process Model was inspired by this <a href="https://ieeexplore.ieee.org/document/4543324">paper</a>.  In order to train the model, I first had to capture images from the raspberry pi camera as well as the corresponding distances from the LIDAR sensor.  I then unwarped and apply PCA to the image to reduce the dimension of each column of unwarped image.  I then trained the Gaussian Process Model using the reduced dimension image column dataset and their corresponding distances.  I then applied the model to the camera stream coming from the raspberry pi to determine the distance live and send the results to the SLAM node.  In ordered to see the algorithm in action, I modified the turtlebot3 as shown in the picture on the right to be able to capture images of its surrounding and then ran SLAM to compare the resulting maps which were generated.   
 
-Here are some results I got
 
 # System Overview
 
 As shown on the right, I modified the stock turtlebot3 robot to include an additional waffle plate plateform.  This additional platform in the middle housed a camera mount and the raspbery pi camera.  In additional, I attached a convex mirror beneath the top plate and adjusted to make sure the camera was able to capture the reflection coming off of the mirror.  My goal with the project is to essentially have the robot be able to sense distances to obstacles without using the LIDAR, but instead from the reflection coming off of the mirror and a Gaussian Process machine learning model.  This design was inspired by Figure 3 in the paper I read
+
+Here is a system diagram highlighting how the camera and mirror impact the generation of the map.  The two systems run seperately.  
+
+<img src="/SystemDiagramOverview.png" width="500">   
+
+
+Here are some results I got
 
 ## Training the Gaussian Model
 
